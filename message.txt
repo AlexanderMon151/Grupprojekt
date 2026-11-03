@@ -1,0 +1,204 @@
+# Game Design Document – [Spelets namn]
+
+**Version:** [0.1]  
+**Senast uppdaterat:** [ÅÅÅÅ-MM-DD]  
+**Ansvarig:** [Namn/team]  
+**Status:** [Idé / prototyp / produktion / lanserat]
+
+## Så använder du mallen
+
+Ersätt text inom hakparenteser med dina svar. Skriv ”Ej relevant” för sådant som inte gäller och ”Öppet” för beslut som återstår. Börja med avsnitt 1–5 och 13 för att få en tydlig, avgränsad första version. Uppdatera dokumentet när designen ändras.
+
+## 1. Spelöversikt
+
+- **Kort pitch:** [Beskriv spelet i 1–3 meningar. Vad gör spelaren och varför är det intressant?]
+- **Genre:** [Fyll i]
+- **Plattformar:** [PC / konsol / mobil / webb / annat]
+- **Målgrupp:** [Vilka spelare riktar sig spelet till? Erfarenhet, intressen och behov.]
+- **Spelarläge:** [Enspelare / samarbete / tävling; antal spelare]
+- **Perspektiv:** [Förstaperson / tredjeperson / ovanifrån / sida / annat]
+- **Spelsession och total speltid:** [Ungefärlig längd]
+- **Affärsmodell:** [Engångsköp / gratis / prenumeration / annat]
+- **Det unika:** [Vad ger spelet en egen identitet?]
+- **Referensspel:** [Titel → vad vi inspireras av och hur vårt spel skiljer sig]
+
+## 2. Vision och designprinciper
+
+**Önskad spelarupplevelse:** [Vad ska spelaren känna?]
+
+| Designprincip | Vad den betyder i praktiken | Hur vi utvärderar den |
+| --- | --- | --- |
+| [Princip 1] | [Konkreta designval] | [Observation eller test] |
+| [Princip 2] | [Konkreta designval] | [Observation eller test] |
+| [Princip 3] | [Konkreta designval] | [Observation eller test] |
+
+**Utanför visionen:** [Upplevelser eller funktioner vi medvetet avstår från.]
+
+## 3. Spelarens mål och spelloop
+
+- **Spelarens roll:** [Vem är spelaren i spelet?]
+- **Kortsiktigt mål:** [Vad försöker spelaren göra just nu?]
+- **Långsiktigt mål:** [Vad driver spelaren genom hela spelet?]
+- **Grundloop:** [Handling → utmaning → återkoppling/belöning → nästa beslut]
+- **Loop mellan sessioner:** [Vad utvecklas eller förändras mellan speltillfällen?]
+- **Vinstvillkor:** [Fyll i, eller ange om spelet saknar ett slut]
+- **Förlustvillkor och återhämtning:** [Vad kan gå fel? Vad händer efteråt?]
+
+**Exempel på 60 sekunders spelande:**  
+[Beskriv ett konkret förlopp med spelarens handlingar, val och spelets respons.]
+
+## 4. Spelmekanik och regler
+
+Kopiera följande för varje central mekanik.
+
+### [Mekanikens namn]
+
+- **Syfte:** [Vilken del av upplevelsen stödjer mekaniken?]
+- **Spelarens handling och input:** [Vad gör spelaren och med vilken kontroll?]
+- **Förutsättningar:** [När får handlingen utföras?]
+- **Regler:** [Vad händer, i vilken ordning och under vilka villkor?]
+- **Värden:** [Kostnad, räckvidd, hastighet, skada, väntetid osv. med enheter]
+- **Begränsningar och specialfall:** [Vad händer vid exempelvis avbrott eller ogiltiga mål?]
+- **Återkoppling:** [Bild, ljud, animation, vibration och gränssnitt]
+- **Samspel med andra system:** [Fyll i]
+- **Acceptanskriterier:** [Observerbara beteenden som visar att mekaniken fungerar]
+- **Öppna frågor:** [Vad behöver prototypas eller beslutas?]
+
+## 5. Kontroller och spelkänsla
+
+| Handling | Tangentbord/mus | Handkontroll/pekskärm | Kommentar |
+| --- | --- | --- | --- |
+| [Förflyttning] | [Input] | [Input] | [Beteende] |
+| [Huvudhandling] | [Input] | [Input] | [Beteende] |
+| [Sekundär handling] | [Input] | [Input] | [Beteende] |
+| [Paus/meny] | [Input] | [Input] | [Beteende] |
+
+- **Rörelse och kamera:** [Hastighet, acceleration, kamerabeteende och begränsningar]
+- **Respons och timing:** [Hur snabbt ska spelet reagera? Finns inputbuffring eller tolerans?]
+- **Anpassning:** [Ombindning, känslighet och alternativa kontrollsätt]
+
+## 6. Progression, svårighetsgrad och ekonomi
+
+- **Vad utvecklas:** [Färdigheter, utrustning, berättelse, områden eller annat]
+- **Upplåsningar:** [Vad låses upp, när och genom vilka krav?]
+- **Svårighetskurva:** [Hur förändras utmaningen och vilka alternativ finns?]
+- **Belöningar:** [Vad belönas, med vad och hur ofta?]
+- **Resurser/valutor:** [Hur tjänas de in, används och begränsas?]
+- **Balansmål:** [Önskade tider, kostnader och förhållanden; ange preliminära värden]
+- **Omspelbarhet:** [Vad får spelaren att vilja spela igen, om relevant?]
+
+## 7. Värld, berättelse och karaktärer
+
+- **Miljö och tidsperiod:** [Fyll i]
+- **Premiss och huvudkonflikt:** [Fyll i]
+- **Huvudkaraktärer:** [Namn, roll, drivkraft och relation till spelaren]
+- **Berättelsens struktur:** [Linjär / förgrenad / miljöbaserad / annat]
+- **Spelarens val och konsekvenser:** [Fyll i]
+- **Hur berättelsen förmedlas:** [Dialog, mellansekvenser, miljö, föremål osv.]
+- **Ton och teman:** [Fyll i]
+
+## 8. Banor och spelinnehåll
+
+- **Övergripande struktur:** [Banor / öppen värld / matcher / procedurgenererat]
+- **Hur nya moment introduceras:** [Lära → öva → kombinera → pröva]
+- **Variation och tempo:** [Hur växlar spelet mellan olika typer av situationer?]
+
+| Bana/område | Syfte och spelarmål | Utmaningar och mekaniker | Ungefärlig längd |
+| --- | --- | --- | --- |
+| [Namn] | [Fyll i] | [Fyll i] | [Minuter] |
+
+**Innehållsbehov:** [Antal och typer av fiender, föremål, uppdrag, pussel osv.]
+
+## 9. Gränssnitt och tillgänglighet
+
+- **Viktiga skärmar och flöden:** [Start → meny → spel → resultat osv.]
+- **HUD:** [Vilken information måste synas under spel?]
+- **Introduktion:** [Hur lär sig spelaren kontroller, regler och mål?]
+- **Paus, sparning och återupptagning:** [Hur fungerar det för spelaren?]
+- **Tillgänglighet:** [Textstorlek, kontrast, färgoberoende signaler, undertexter, rörelseinställningar, svårighetsstöd]
+- **Språk:** [Språk vid lansering och behov av lokalisering]
+- **Skisser/referenser:** [Länkar eller bilder]
+
+## 10. Grafik och ljud
+
+- **Visuell stil:** [2D/3D, formspråk, färgpalett och referenser]
+- **Läsbarhet:** [Hur skiljs spelare, hot, mål och interaktiva objekt åt?]
+- **Animationer och effekter:** [Vad behövs för rörelse, träffar, framgång och misslyckande?]
+- **Musik:** [Stil, stämning och när musiken förändras]
+- **Ljudeffekter:** [Viktiga ljud och vilken information de förmedlar]
+- **Röster:** [Omfattning och språk, om relevant]
+- **Tillgångar:** [Vad skapas internt, köps eller återanvänds? Ange källa/licens.]
+
+## 11. Teknik
+
+- **Spelmotor och version:** [Fyll i]
+- **Målplattformarnas krav:** [Enheter, operativsystem, upplösning och inmatning]
+- **Prestandamål:** [Bildfrekvens, laddningstid, minne och ungefärlig lagringsstorlek]
+- **Tekniska huvudsystem:** [Exempelvis AI, fysik, generation och dialog]
+- **Sparsystem:** [Vad sparas, när och var? Versionshantering av sparfiler?]
+- **Verktyg och arbetsflöde:** [Versionshantering, byggprocess och innehållsverktyg]
+- **Beroenden och begränsningar:** [Pluginer, externa tjänster och tekniska risker]
+
+### Onlinefunktioner – om relevant
+
+- **Nätverksmodell och matchmaking:** [Fyll i]
+- **Sessioner och spelartillstånd:** [Anslutning, frånkoppling, återanslutning och avhopp]
+- **Synkronisering och auktoritet:** [Vilken part avgör spelets tillstånd?]
+- **Konton, data och moderering:** [Vilken data behövs och vilka spelarfunktioner krävs?]
+
+## 12. Speltest och framgångskriterier
+
+| Fråga/hypotes | Testmetod och målgrupp | Godkänt resultat | Utfall och åtgärd |
+| --- | --- | --- | --- |
+| [Förstår spelaren huvudmålet?] | [Observation av första sessionen] | [Mätbart kriterium] | [Fyll i efter test] |
+| [Är grundloopen engagerande?] | [Metod] | [Kriterium] | [Fyll i efter test] |
+
+- **Teknisk testning:** [Plattformar, prestanda, sparning och kritiska specialfall]
+- **Hantering av feedback:** [Vem sammanställer, prioriterar och beslutar?]
+
+## 13. Omfattning och första spelbara version
+
+**Målet med prototypen:** [Vilken osäkerhet ska den besvara?]
+
+**Minsta spelbara versionen (MVP):** [Den minsta sammanhängande upplevelsen som visar spelets kärna.]
+
+| Funktion/innehåll | Prioritet: måste/bör/kan | Ingår i första versionen? | Klart när |
+| --- | --- | --- | --- |
+| [Fyll i] | [Fyll i] | [Ja/nej] | [Verifierbart kriterium] |
+
+**Ingår uttryckligen inte:** [Funktioner, plattformar och innehåll som lämnas utanför.]
+
+## 14. Produktion och milstolpar
+
+- **Team och ansvar:** [Namn/roll → ansvarsområde]
+- **Tillgänglig tid och budget:** [Fyll i]
+- **Externa behov:** [Tillgångar, tjänster eller kompetens]
+
+| Milstolpe | Leverans | Godkännandekriterium | Ansvarig | Måldatum |
+| --- | --- | --- | --- | --- |
+| Prototyp | [Fyll i] | [Fyll i] | [Fyll i] | [Datum] |
+| Representativ spelbar del | [Fyll i] | [Fyll i] | [Fyll i] | [Datum] |
+| Innehåll klart | [Fyll i] | [Fyll i] | [Fyll i] | [Datum] |
+| Lanseringskandidat | [Fyll i] | [Fyll i] | [Fyll i] | [Datum] |
+
+## 15. Risker och öppna beslut
+
+| Risk eller fråga | Sannolikhet/konsekvens | Åtgärd eller test | Ansvarig | Beslutas senast |
+| --- | --- | --- | --- | --- |
+| [Fyll i] | [Låg/medel/hög] | [Fyll i] | [Fyll i] | [Datum] |
+
+## 16. Lansering och fortsatt utveckling
+
+- **Lanseringsplattformar och distribution:** [Fyll i]
+- **Pris och eventuell monetisering:** [Fyll i, om relevant]
+- **Demo och presentation:** [Vad ska en potentiell spelare få se eller prova?]
+- **Krav före lansering:** [Exempelvis butiksmaterial, stabilitet och plattformskrav]
+- **Support och uppdateringar:** [Ansvar, omfattning och prioritering]
+
+## 17. Beslutslogg och bilagor
+
+| Datum | Beslut eller ändring | Skäl | Ansvarig |
+| --- | --- | --- | --- |
+| [Datum] | [Fyll i] | [Fyll i] | [Fyll i] |
+
+**Bilagor:** [Länkar till prototyp, kod, konceptbilder, balanseringsvärden och testanteckningar.]
